@@ -1,6 +1,6 @@
-name: 'Setup .NET Core SDK'
+name: 'Setup Maliek Core SDK'
 description: 'Used to build and publish .NET source. Set up a specific version of the .NET and authentication to private NuGet repository'
-author: 'GitHub'
+author: 'Maliek Galant'
 branding:
   icon: play
   color: green
