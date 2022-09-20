@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections.authors
+  size: 1
+  alias: 'about'
+  addAllPagesToCollections: true
+layout: 'layouts/about.njk'
+permalink: '{{ about.url }}'
+---
+
+{{ about.bio | safe if author.bio else "Bio not found" }}
