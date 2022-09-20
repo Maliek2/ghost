@@ -1,12 +1,12 @@
 # Maliek Starter Ghost
 
-A starter template to build completely static websites with [Ghost](https://ghost.org) & [Eleventy](https://www.11ty.io)
+A starter template to build completely static websites with [Ghost](https://ghost.adball.tech/amp/) & [Facebook](https://www.facebook.com/malicinfo/)
 
 **Demo:** https://ghost.adball.tech
 
 ![screenshot](https://user-images.githubusercontent.com/1177460/61880744-5b138980-aeed-11e9-9d8e-07c0b3c03cc5.png)
 
-# Installing
+## Installing
 
 ```bash
 # From Source
@@ -20,7 +20,7 @@ Then install dependencies
 yarn
 ```
 
-# Running
+### Running
 
 Start the development server
 
@@ -40,7 +40,7 @@ The starter contains three config files specifically for deploying with Netlify.
 
 To deploy to your Netlify account, hit the button below.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TryGhost/eleventy-starter-ghost)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Maliek2/)
 
 Content API Keys are generally not considered to be sensitive information, they exist so that they can be changed in the event of abuse; so most people commit it directly to their `.env` config file. If you prefer to keep this information out of your repository you can remove this config and set [Netlify ENV variables](https://www.netlify.com/docs/continuous-deployment/#build-environment-variables) for production builds instead.
 
@@ -50,7 +50,7 @@ Once deployed, you can set up a [Ghost + Netlify Integration](https://docs.ghost
 
 You can disable the default Ghost Handlebars Theme front-end by enabling the `Make this site private` flag within your Ghost settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Eleventy front-end becomes the source of truth for SEO.
 
-# Extra options
+## Extra options
 
 ```bash
 # Build the site locally
